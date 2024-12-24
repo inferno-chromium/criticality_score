@@ -26,7 +26,7 @@ by [Rob Pike](https://github.com/robpike):
 We use the following default parameters to derive the criticality score for an
 open source project:
 
-| Parameter (S<sub>i</sub>)  | Weight (&alpha;<sub>i</sub>) | Max threshold (T<sub>i</sub>) | Description | Reasoning |
+| Parameter (S<sub>i</sub>)  | Weight (&alpha;<sub>i</sub>) | Min threshold (T<sub>i</sub>) | Description | Reasoning |
 |---|---:|---:|---|---|
 | created_since | 1 | 120 | Time since the project was created (in months) | Older project has higher chance of being widely used or being dependent upon. |
 | updated_since  | -1 | 120 | Time since the project was last updated (in months) | Unmaintained projects with no recent commits have higher chance of being less relied upon. |
