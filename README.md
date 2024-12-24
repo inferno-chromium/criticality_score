@@ -153,7 +153,7 @@ source control systems.
 
 The data is available on Google Cloud Storage and can be downloaded via:
 
-- web browser: [commondatastorage.googleapis.com/ossf-criticality-score/index.html](https://commondatastorage.googleapis.com/ossf-criticality-score/index.html)
+- web browser: [commondatastorage.googleapis.com/ossf-criticality-score/index.html?prefix=2022.11.28/](https://commondatastorage.googleapis.com/ossf-criticality-score/index.html?prefix=2022.11.28/)
 - [`gsutil`](https://cloud.google.com/storage/docs/gsutil_install)
 command-line tool: `gsutil ls gs://ossf-criticality-score/`
 
