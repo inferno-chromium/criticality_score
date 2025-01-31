@@ -1,10 +1,11 @@
 module github.com/ossf/criticality_score/tools/v2
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	github.com/golangci/golangci-lint v1.57.2
-	mvdan.cc/gofumpt v0.6.0
+	mvdan.cc/gofumpt v0.7.0
 )
 
 require (
